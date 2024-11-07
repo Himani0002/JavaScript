@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: cornflowerblue;
+}
+
+#card {
+  height: 550px;
+  border-radius: 10px;
+  width: 300px;
+  background-color: white;
+  text-align: center;
+
+}
+
+#card img {
+  height: 50%;
+  width: 100%;
+  object-fit: cover;
+  object-position: content;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+#card h1 {
+  font-size: 25px;
+  margin: 10px 0;
+}
+
+#card h5 {
+  font-size: #fff;
+  color: red;
+  margin: 20px;
+}
+
+#card button {
+  background-color: cadetblue;
+  color: #fff;
+  font-weight: 700;
+  padding: 12px 20px;
+  margin: 3px;
+  margin-top: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+#card #add:hover {
+  background-color: rgb(70, 130, 132);
+
+}
+
+#card #remove {
+  background-color: #dadada;
+  color: black;
+}
+
+#card #remove:hover {
+  background-color: #bbbbbb;
+}
